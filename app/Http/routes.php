@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::post('contactengine', ['as' => 'contactengine', function () {
+	$lorem= Input::all();
+   return view('contactengine')->with($lorem);
+}]);

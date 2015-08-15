@@ -739,7 +739,7 @@ Most of my time is spent with technologies related to Web and Android<br/>progra
 
             <div class="row mrgn30">
 
-                <form method="post" action="" id="contactfrm" role="form">
+                <form method="post" action="contactengine" id="contactfrm" role="form">
 
                     <div class="col-sm-4">
                         <div class="form-group">
@@ -753,12 +753,13 @@ Most of my time is spent with technologies related to Web and Android<br/>progra
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
-                            <label for="comments">Comments</label>
-                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Tell me anything…" title="Please enter your message (at least 10 characters)"></textarea>
+                            <label for="message">Message</label>
+                            <textarea name="message" class="form-control" id="message" cols="3" rows="5" placeholder="Tell me anything…" title="Please enter your message (at least 10 characters)"></textarea>
                         </div>
                         <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
                         <div class="result"></div>
                     </div>
+                    <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                 </form>
                 <div class="col-sm-4">
                     <h4>Address:</h4>
