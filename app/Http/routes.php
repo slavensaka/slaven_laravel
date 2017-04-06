@@ -18,7 +18,7 @@ Route::get('/', function () {
 
  //            $m->to('slavensakacic@gmail.com', "Slaven Sakačić")->subject('Your Reminder!');
  //        });
-    return view('index');
+    return view('index.index');
 });
 
 Route::post('contactengine', ['as' => 'contactengine', function () {

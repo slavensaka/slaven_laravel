@@ -23,3 +23,6 @@
     <script src="js/jquery.cslider.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
     <script src="js/owl-carousel/owl.carousel.js"></script>
+
+   </body>
+</html>
