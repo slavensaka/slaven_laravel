@@ -18,7 +18,6 @@ Route::get('/', function () {
 
  //            $m->to('slavensakacic@gmail.com', "Slaven Sakačić")->subject('Your Reminder!');
  //        });
-
     return view('index');
 });
 
